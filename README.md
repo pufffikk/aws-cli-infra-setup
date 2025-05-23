@@ -25,9 +25,7 @@ The main components created by the script include:
 ## 📦 Requirements
 
 - AWS CLI installed and configured (`aws configure`)
-- A valid EC2 key pair created in your AWS account (used for SSH)
 - An Amazon Linux 2 AMI ID (update the script with a valid ID for your region)
-- Sufficient IAM permissions to create networking and EC2 resources
 - Bash-compatible shell (Linux/macOS/WSL on Windows)
 
 ## 📥 How to Use
@@ -35,8 +33,6 @@ The main components created by the script include:
 ### 1. Clone the Repository
 
 ### 2. Open create_vpc.sh and update the following placeholders:
-
-	Replace MyKeyPair with your actual EC2 key pair name
 
 	Replace the AMI_ID (ami-xxxxxxxxxxxxxxxxx) with an Amazon Linux 2 AMI ID for your AWS region
 
